@@ -29,6 +29,11 @@ El proyecto consiste en realizar el programa de un parqueadero, que prestara su 
 Parqueadero la Guardería © 2 por Juan Pablo Duque tiene licencia bajo Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional 
 
 ## 5. Reporte de visión
+El proyecto consiste en el desarrollo de un sistema de gestión para un parqueadero utilizando Python como lenguaje de programación y Spyder como entorno de desarrollo y análisis de datos. Spyder ofrece un editor de código avanzado, lo que facilita el desarrollo de proyectos complejos como sistemas de gestión, análisis numérico y visualización de datos.
+
+El objetivo del proyecto es crear un sistema automatizado para controlar el ingreso y salida de vehículos en el parqueadero, gestionar el tiempo de permanencia y generar reportes automáticos. Este sistema, desarrollado en Spyder, optimizará los procesos y permitirá una mejor gestión en "La Guardería".
+
+Los beneficios que buscamos con este proyecto son automatizar la gestión del parqueadero, desde el registro de ingreso y salida de vehículos, lo que permitirá eliminar procesos manuales, reducir errores y agilizar las operaciones. Con la implementación del sistema, también se pretende reducir el tiempo de espera para los usuarios, haciendo que el proceso de ingreso y salida sea más rápido y eficiente. Esto contribuirá a mejorar la experiencia de los clientes, ofreciendo un servicio más fluido y rápido, lo que incrementará la fidelidad de los usuarios al parqueadero.
 
 ## 6. Especificación de requisitos
 A continuación se presentan los requisitos funcionales y no funcionales del software
