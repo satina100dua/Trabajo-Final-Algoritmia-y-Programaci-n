@@ -31,5 +31,19 @@ Parqueadero la Guardería © 2 por Juan Pablo Duque tiene licencia bajo Creative
 ## 5. Reporte de visión
 
 ## 6. Especificación de requisitos
+A continuación se presentan los requisitos funcionales y no funcionales del software
+
+**Funcionales**
+- El sistema permitirá registrar el ingreso de vehículos.
+- El sistema permitirá registrar la salida de vehículos.
+- El sistema permitirá calcular el tiempo de permanencia en el parqueadero "La Guardería"
+- El sistema podrá calcular el valor del servicio, teniendo en cuenta el tiempo de permanencia en el parqueadero (por hora y fracción)
+- El sistema deberá generar y mostrar un recibo al momento de la salida, en el que se indique la hora de entrada, la hora de salida salida y el valor total.
+- El sistema tendrá la capacidad de llevar un registro de los vehículos que se encuentran en el parqueadero y así mismo, de los espacios disponibles (máximo 64).
+- El sistema permitirá generar reportes administrativos diarios, en los cuales se incluyan el número de vehículos y el total recaudado durante la jornada.
+- El sistema deberá tener la capacidad de manejar errores que se presenten, como por ejemplo intentar ingresar un vehículo cuando el parqueadero no tiene espacio.
+- 
+**No funcionales**
+
 
 ## 7. Plan de proyectos
