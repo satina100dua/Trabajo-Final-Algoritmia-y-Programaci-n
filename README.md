@@ -60,23 +60,35 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 - **Actividad del proyecto**
 
   **Fase de planeación**
+  
 -Reunión inicial y análisis del sistema del parqueadero. Responsables: Todo el grupo
+
 -Definición de requerimientos funcionales. Responsable: Juan Pablo Duque Rodas
+
 -Diseño del cronograma y distribución de tareas. Responsable: Maria Belén Nuñez
   
   **Fase de diseño**
+  
 -Diseño de interfaces: registrar usuario, ingreso/retiro. Responsable: Anahí Catalina Melo
+
 -Modelo de base de datos (usuarios, vehículos, registros). Responsable: Sara Valentina Ciendua
   
   **Fase de desarrollo**
+  
 -Programar función: Registrar usuario. Responsable:	Juan Pablo Duque
+
 -Programar función: Ingresar vehículo. Responsable: Maria Belén Nuñez
+
 -Programar función: Retirar vehículo. Responsable: Anahí Catalina Melo
+
 -Programar menú administrador (consultas, reportes). Responsable:	Sara Valentina Ciendua
+
 -Programar opción de salir del sistema. Responsable:	Juan Pablo Duque
 
   **Fase de prueba y entrega**
+  
 -Pruebas y ajustes del sistema. Responsables: Todo el grupo
+
 -Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
 
 - **Diagrama de Gantt**
@@ -85,8 +97,13 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 - **Presupuesto del proyecto**
   
   **Presupuesto:**
-- Equipo: 4 estudiantes
-- Horas totales invertidas: 50 horas
-- Horas por estudiante: 50 / 4 = 12.5 horas por estudiante
-- Valor hora de práctica: ≈ $6.770 COP
-- Costo total estimado en tiempo: 50 horas × $6.770 = $338.500 COP
+  
+-Equipo: 4 estudiantes
+
+-Horas totales invertidas: 50 horas
+
+-Horas por estudiante: 50 / 4 = 12.5 horas por estudiante
+
+-Valor hora de práctica: ≈ $6.770 COP
+
+-Costo total estimado en tiempo: 50 horas × $6.770 = $338.500 COP
