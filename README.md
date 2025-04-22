@@ -22,3 +22,4 @@ Estudiante de Ingeniería Industrial. Caracterizada por su paciencia, su óptima
 Estudiante de Ingeniería Industrial. Se caraceriza por su compromismo y responsabilidad, indispensables para llevar a cabo una actividad. De igual manera, se caracteriza por su colaboración óptima en los trabajos en equipo, siendo una persona muy proactiva y organizada al momento de la comunicación.
 
 ## 3. Nombre del proyecto y detalles
+El proyecto del 
