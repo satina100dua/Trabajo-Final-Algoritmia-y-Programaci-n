@@ -74,7 +74,11 @@ Programar opción de salir del sistema, responsable	Juan Pablo Duque
 Pruebas y ajustes del sistema, responsable todo el grupo
 Documentación técnica y presentación final, responsable	Juan Pablo Duque(líder) con apoyo de todos.
 - **Diagrama de Gantt**
+
+
 ![image](https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2)
+
+
 - **Presupuesto del proyecto**
 Presupuesto:
 Equipo: 4 estudiantes
