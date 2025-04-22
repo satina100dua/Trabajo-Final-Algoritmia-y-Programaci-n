@@ -29,7 +29,8 @@ El proyecto consiste en realizar el programa de un parqueadero, que prestara su 
 Parqueadero la Guardería © 2 por Juan Pablo Duque tiene licencia bajo Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional 
 
 ## 5. Reporte de visión
-El proyecto consiste en el desarrollo de un sistema de gestión para un parqueadero utilizando Python como lenguaje de programación y Spyder como entorno de desarrollo y análisis de datos. Spyder ofrece un editor de código avanzado, lo que facilita el desarrollo de proyectos complejos como sistemas de gestión, análisis numérico y visualización de datos.
+El proyecto consiste en el desarrollo de un sistema de gestión para un parqueadero utilizando el lenguaje de programación Python y el entorno de desarrollo Spyder. El sistema está diseñado para facilitar el control de entradas y salidas de vehículos, calcular automáticamente el tiempo de uso y el monto a pagar, así como monitorear la disponibilidad de espacios en tiempo real.
+ Spyder ofrece un editor de código avanzado, lo que facilita el desarrollo de proyectos complejos como sistemas de gestión, análisis numérico y visualización de datos.
 
 El objetivo del proyecto es crear un sistema automatizado para controlar el ingreso y salida de vehículos en el parqueadero, gestionar el tiempo de permanencia y generar reportes automáticos. Este sistema, desarrollado en Spyder, optimizará los procesos y permitirá una mejor gestión en "La Guardería".
 
@@ -47,8 +48,11 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 - El sistema tendrá la capacidad de llevar un registro de los vehículos que se encuentran en el parqueadero y así mismo, de los espacios disponibles (máximo 64).
 - El sistema permitirá generar reportes administrativos diarios, en los cuales se incluyan el número de vehículos y el total recaudado durante la jornada.
 - El sistema deberá tener la capacidad de manejar errores que se presenten, como por ejemplo intentar ingresar un vehículo cuando el parqueadero no tiene espacio.
-- 
+- El sistema debe exportar los reportes a un archivo CSV
 **No funcionales**
-
-
+- El porgrama debe funcionar correctamente en Spyder usando Python.
+- Cada accion del sistema debe repsonder lo mas rapido posible.
+- La consola debe ser facil de entender y utlizar para cada usuarios.
+- Los datos del parqueadero deben quedar bien almacenados para evitar perdidas en el programa.
+- Todo el codigo debe guardarse en GitHub y el lider debe ser el encargado de administrarlo.
 ## 7. Plan de proyectos
