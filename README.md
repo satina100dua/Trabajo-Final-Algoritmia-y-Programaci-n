@@ -60,29 +60,30 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 - **Actividad del proyecto**
 
   **Fase de planeación**
-- Reunión inicial y análisis del sistema del parqueadero. Responsables: Todo el grupo
--  Definición de requerimientos funcionales. Responsable: Juan Pablo Duque Rodas
--  Diseño del cronograma y distribución de tareas. Responsable: Maria Belén Nuñez
+-Reunión inicial y análisis del sistema del parqueadero. Responsables: Todo el grupo
+-Definición de requerimientos funcionales. Responsable: Juan Pablo Duque Rodas
+-Diseño del cronograma y distribución de tareas. Responsable: Maria Belén Nuñez
   
   **Fase de diseño**
-- Diseño de interfaces: registrar usuario, ingreso/retiro. Responsable: Anahí Catalina Melo
-- Modelo de base de datos (usuarios, vehículos, registros). Responsable: Sara Valentina Ciendua
+-Diseño de interfaces: registrar usuario, ingreso/retiro. Responsable: Anahí Catalina Melo
+-Modelo de base de datos (usuarios, vehículos, registros). Responsable: Sara Valentina Ciendua
   
   **Fase de desarrollo**
-Programar función: Registrar usuario. Responsable:	Juan Pablo Duque
-Programar función: Ingresar vehículo. Responsable: Maria Belén Nuñez
-Programar función: Retirar vehículo. Responsable: Anahí Catalina Melo
-Programar menú administrador (consultas, reportes). Responsable:	Sara Valentina Ciendua
-Programar opción de salir del sistema. Responsable:	Juan Pablo Duque
+-Programar función: Registrar usuario. Responsable:	Juan Pablo Duque
+-Programar función: Ingresar vehículo. Responsable: Maria Belén Nuñez
+-Programar función: Retirar vehículo. Responsable: Anahí Catalina Melo
+-Programar menú administrador (consultas, reportes). Responsable:	Sara Valentina Ciendua
+-Programar opción de salir del sistema. Responsable:	Juan Pablo Duque
 
   **Fase de prueba y entrega**
-Pruebas y ajustes del sistema. Responsables: Todo el grupo
-Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
+-Pruebas y ajustes del sistema. Responsables: Todo el grupo
+-Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
 
 - **Diagrama de Gantt**
 ![image](https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2)
 
 - **Presupuesto del proyecto**
+  
   **Presupuesto:**
 - Equipo: 4 estudiantes
 - Horas totales invertidas: 50 horas
