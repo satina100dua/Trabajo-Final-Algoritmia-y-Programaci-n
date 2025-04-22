@@ -80,7 +80,7 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 -Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
 
 - **Diagrama de Gantt**
-![image](https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2)
+![imágen Diagrama de Gantt]([https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2])
 
 - **Presupuesto del proyecto**
   
