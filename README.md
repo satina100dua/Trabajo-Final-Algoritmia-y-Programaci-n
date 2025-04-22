@@ -26,4 +26,5 @@ El proyecto consiste en realizar el programa de un parqueadero, que prestara su 
 ingreso de automóviles, el ingreso de motos no es aceptado. De esta manera, denominamos al parqueadero "La Guardería" el cúal solo permite el ingreso de automóviles, el ingreso de motos no es aceptado. El programa permitirá registrar usuarios, ingresar y retirar vehículos y generar reportes administrativos. Adicionalmente, el parqueadero"La Guardería" cuenta con tres personas que trabajan turnos de 6 horas para atender a los usuarios que ingresan a usar el servicio y no presentar interrupciones ni contratiempos en el horario de 6:00 a.m. a 12:00 p.m. en jornada continua. 
 ![Imagén Parqueadero "La Guardería"]([https://sdmntpritalynorth.oaiusercontent.com/files/00000000-4250-6246-9bb7-a95242793809/raw?se=2025-04-22T20%3A19%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=36c5e4cb-6ee4-5d32-bce0-9794126d3134&skoid=d958ec58-d47c-4d2f-a9f2-7f3e03fdcf72&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-22T04%3A31%3A23Z&ske=2025-04-23T04%3A31%3A23Z&sks=b&skv=2024-08-04&sig=D9vHQQ83y%2BxQZdvEs%2BDVVwPi7wMVtWegvRlPms9rYBs%3D])
 
-
+## 4. Licencia
+Parqueadero la Guardería © 2 por Juan Pablo Duque tiene licencia bajo Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional 
