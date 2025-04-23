@@ -23,7 +23,7 @@ Estudiante de Ingeniería Industrial. Se caraceriza por su compromismo y respons
 
 ## 3. Nombre del proyecto y detalles
 El proyecto consiste en realizar el programa de un parqueadero, que prestara su servicio a los vehículos del sector de la Universidad de Antioquia. De esta manera, denominamos al parqueadero "La Guardería" el cúal solo permite el ingreso de automóviles, el ingreso de motos no es aceptado. El programa permitirá registrar usuarios, ingresar y retirar vehículos y generar reportes administrativos. Adicionalmente, el parqueadero"La Guardería" cuenta con cuatro personas que trabajan turnos de 6 horas para atender a los usuarios que ingresan a usar el servicio y no presentar interrupciones ni contratiempos en el horario de 6:00 a.m. a 12:00 p.m. en jornada continua. 
-![Imagén Parqueadero "La Guardería"]([https://i.imgur.com/mTvH2EG.jpeg])
+![Imágen Parqueadero "La Guardería"]([https://i.imgur.com/mTvH2EG.jpeg])
 
 ## 4. Licencia
 Parqueadero la Guardería © 2 por Juan Pablo Duque tiene licencia bajo Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional 
@@ -87,7 +87,7 @@ A continuación se presentan las actividades correspondientes para la realizaci�
 **Diagrama de Gantt:**
 A continuación se presenta la gráfica correspondiente al cronograma (Diagrama de Gantt)
 
-![imágen Diagrama de Gantt]([https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2])
+![Imágen Diagrama de Gantt]([https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2])
 
 **Presupuesto del proyecto:**
   El presupuesto del proyecto se encuentra estipulado de la siguiente manera
