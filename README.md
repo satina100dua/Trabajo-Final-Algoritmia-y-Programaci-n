@@ -22,7 +22,7 @@ Estudiante de Ingeniería Industrial. Caracterizada por su paciencia, su óptima
 Estudiante de Ingeniería Industrial. Se caraceriza por su compromismo y responsabilidad, indispensables para llevar a cabo una actividad. De igual manera, se caracteriza por su colaboración óptima en los trabajos en equipo, siendo una persona muy proactiva y organizada al momento de la comunicación.
 
 ## 3. Nombre del proyecto y detalles
-El proyecto consiste en realizar el programa de un parqueadero, que prestara su servicio a los vehículos del sector de la Universidad de Antioquia. De esta manera, denominamos al parqueadero "La Guardería" el cúal solo permite el ingreso de automóviles, el ingreso de motos no es aceptado. El programa permitirá registrar usuarios, ingresar y retirar vehículos y generar reportes administrativos. Adicionalmente, el parqueadero"La Guardería" cuenta con tres personas que trabajan turnos de 6 horas para atender a los usuarios que ingresan a usar el servicio y no presentar interrupciones ni contratiempos en el horario de 6:00 a.m. a 12:00 p.m. en jornada continua. 
+El proyecto consiste en realizar el programa de un parqueadero, que prestara su servicio a los vehículos del sector de la Universidad de Antioquia. De esta manera, denominamos al parqueadero "La Guardería" el cúal solo permite el ingreso de automóviles, el ingreso de motos no es aceptado. El programa permitirá registrar usuarios, ingresar y retirar vehículos y generar reportes administrativos. Adicionalmente, el parqueadero"La Guardería" cuenta con cuatro personas que trabajan turnos de 6 horas para atender a los usuarios que ingresan a usar el servicio y no presentar interrupciones ni contratiempos en el horario de 6:00 a.m. a 12:00 p.m. en jornada continua. 
 ![Imagén Parqueadero "La Guardería"]([https://i.imgur.com/mTvH2EG.jpeg])
 
 ## 4. Licencia
@@ -57,53 +57,43 @@ A continuación se presentan los requisitos funcionales y no funcionales del sof
 - Todo el código debe guardarse en GitHub y el lider debe ser el encargado de administrarlo.
   
 ## 7. Plan de proyectos
-- **Actividad del proyecto**
+**Actividad del proyecto:**
+A continuación se presentan las actividades correspondientes para la realización del proyecto; que se encuentran organizadas y divididas en las siguientes fases
 
-  **Fase de planeación**
+*Fase de planeación*
   
--Reunión inicial y análisis del sistema del parqueadero. Responsables: Todo el grupo
-
--Definición de requerimientos funcionales. Responsable: Juan Pablo Duque Rodas
-
--Diseño del cronograma y distribución de tareas. Responsable: Maria Belén Nuñez
+- Reunión inicial y análisis del sistema del parqueadero. Responsables: Todo el grupo
+- Definición de requerimientos funcionales. Responsable: Juan Pablo Duque Rodas
+- Diseño del cronograma y distribución de tareas. Responsable: Maria Belén Nuñez
   
-  **Fase de diseño**
+*Fase de diseño*
   
--Diseño de interfaces: registrar usuario, ingreso/retiro. Responsable: Anahí Catalina Melo
-
--Modelo de base de datos (usuarios, vehículos, registros). Responsable: Sara Valentina Ciendua
+- Diseño de interfaces: registrar usuario, ingreso/retiro. Responsable: Anahí Catalina Melo
+- Modelo de base de datos (usuarios, vehículos, registros). Responsable: Sara Valentina Ciendua
   
-  **Fase de desarrollo**
+*Fase de desarrollo*
+
+- Programar función: Registrar usuario. Responsable:	Juan Pablo Duque
+- Programar función: Ingresar vehículo. Responsable: Maria Belén Nuñez
+- Programar función: Retirar vehículo. Responsable: Anahí Catalina Melo
+- Programar menú administrador (consultas, reportes). Responsable:	Sara Valentina Ciendua
+- Programar opción de salir del sistema. Responsable:	Juan Pablo Duque
+
+*Fase de prueba y entrega*
   
--Programar función: Registrar usuario. Responsable:	Juan Pablo Duque
+- Pruebas y ajustes del sistema. Responsables: Todo el grupo
+- Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
 
--Programar función: Ingresar vehículo. Responsable: Maria Belén Nuñez
+**Diagrama de Gantt:**
+A continuación se presenta la gráfica correspondiente al cronograma (Diagrama de Gantt)
 
--Programar función: Retirar vehículo. Responsable: Anahí Catalina Melo
-
--Programar menú administrador (consultas, reportes). Responsable:	Sara Valentina Ciendua
-
--Programar opción de salir del sistema. Responsable:	Juan Pablo Duque
-
-  **Fase de prueba y entrega**
-  
--Pruebas y ajustes del sistema. Responsables: Todo el grupo
-
--Documentación técnica y presentación final. Responsable: Juan Pablo Duque(líder) con apoyo de las demás integrantes.
-
-- **Diagrama de Gantt**
 ![imágen Diagrama de Gantt]([https://github.com/user-attachments/assets/7dbfa5d4-3bcb-48b6-bc32-9d84ee90a9c2])
 
-- **Presupuesto del proyecto**
+**Presupuesto del proyecto:**
+  El presupuesto del proyecto se encuentra estipulado de la siguiente manera
   
-  **Presupuesto:**
-  
--Equipo: 4 estudiantes
-
--Horas totales invertidas: 50 horas
-
--Horas por estudiante: 50 / 4 = 12.5 horas por estudiante
-
--Valor hora de práctica: ≈ $6.770 COP
-
--Costo total estimado en tiempo: 50 horas × $6.770 = $338.500 COP
+- Equipo: 4 estudiantes
+- Horas totales invertidas: 50 horas
+- Horas por estudiante: 50 / 4 = 12.5 horas por estudiante
+- Valor hora de práctica: ≈ $6.770 COP
+- Costo total estimado en tiempo: 50 horas × $6.770 = $338.500 COP
