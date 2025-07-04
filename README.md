@@ -99,3 +99,6 @@ A continuación se presenta la gráfica correspondiente al cronograma (Diagrama 
 - Horas por estudiante: 50 / 4 = 12.5 horas por estudiante
 - Valor hora de práctica: ≈ $6.770 COP
 - Costo total estimado en tiempo: 50 horas × $6.770 = $338.500 COP
+
+## 8. Plan de versionado
+
