@@ -15,16 +15,13 @@ El usuario que ingrese al parqueadero será registrado con los siguientes datos 
 
 Todos los datos deben ser ingresados correctamente con las indicaciones planteadas, en caso contrario, se muestra un error.
 ## 2. Ingresar Vehículo
-Solo los vehículos de usuarios registrados anteriormente serán aceptados por el sistema, para así, recepcionar su hora de entrada.
+Para ingresar su vehículo, el usuario debe identificarse con su documento de identidad y la placa del automóvil. Una vez verificados los datos, el sistema registrará la hora de entrada y entregará un recibo con esta información.
 ## 3. Retiro Vehículo
-Solamente los vehículos de usuarios registrados podrán ser retirados del sistema. El cobro del servicio se determina de la siguiente manera:
-- 7000 por hora
-- 1500 por cada cuarto de hora
+Para realizar el retiro, el usuario debe identificar su vehículo ingresando la placa en el sistema. Solo podrán salir automóviles que estén registrados previamente. Al momento de la salida, el sistema generará una factura con los datos correspondientes y el valor total del servicio, calculado según el tiempo de uso:
+- $7.000 por cada hora completa
+- $1.500 por cada cuarto de hora adicional
 
-Teniendo así un total correspondiente a la suma del cobro por hora y el cobro por cuartos de hora.
-
-El sistema también presentá una condición de pago mínimo, que se presenta si el total calculado es menor que el valor de una hora completa, en este caso se cumple que:
-- El pago mínimo es de 7000
+Si el monto calculado es menor al valor de una hora, se cobrará un mínimo de $7.000.
 ## 4. Administrador
 En este módulo, el sistema solo permite acceso a quien tenga usuario y contraseña de administración. El submenú de administración contiene los siguientes reportes:
 - Total de vehículos registrados
