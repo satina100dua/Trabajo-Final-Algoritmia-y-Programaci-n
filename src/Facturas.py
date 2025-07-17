@@ -65,7 +65,7 @@ def ImprimirFactura(nombre: str, apellido: str, documento: str, placa: str, cobr
 
     # Agregar advertencia si se está aplicando la tarifa mínima
     if cobro == 7000:
-        factura += f"{'Se aplica tarifa mínima.':<60}\n"
+        factura += f"{'Se aplica tarifa mínima de 7000.':<60}\n"
 
     factura += (
             f"{'-'*60}\n"
