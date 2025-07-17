@@ -9,12 +9,14 @@ import time
 import Facturas
 import registro_usuario2
 import menu
+from datetime import datetime
+
 def fechaHora():
     now = datetime.now()
     fecha = now.strftime('%Y-%m-%d')        
     hora = now.strftime('%H:%M:%S')          
     return [fecha, hora]
-from datetime import datetime
+
 dicUsuarios = {}
 dicRegistro = {}
 vehiculos_historial = []
@@ -106,24 +108,23 @@ def admin_module():
 
         else:
             print("Opción inválida, intenta nuevamente.")
+
 def CalculoPago(tiempo_segundos: float, valor_hora=7000, valor_cuarto=1500):
    
     tiempo_horas = tiempo_segundos / 3600
-    horas_completas = int(tiempo_horas)
-    fraccion_hora = tiempo_horas - horas_completas
-    cuartos_hora = int(fraccion_hora * 4)
-    cobro = horas_completas * valor_hora + cuartos_hora * valor_cuarto
+    horas = int(tiempo_horas)
+    fraccion_hora = tiempo_horas - horas
+    cuartos = int(fraccion_hora * 4)
+    cobro = horas * valor_hora + cuartos * valor_cuarto
     if cobro < 7000:
         cobro = 7000
-    return cobro, horas_completas, cuartos_hora
-
+    return cobro, horas, cuartos
 def validar_datos(documento:str, nombre:str, apellido:str, placa:str)->bool:
     validar = True
-    global error
     # Validacion del documento
     if isinstance(documento, str):
         if documento.isdigit():
-            if len(documento) <= 3 or len(documento) >= 15:
+            if len(documento) <= 3 or  len(documento) >= 15:
                 validar = False
                 print('ERROR, El documento debe tener entre 3 y 15 digitos|\n')
             else:
@@ -131,18 +132,15 @@ def validar_datos(documento:str, nombre:str, apellido:str, placa:str)->bool:
         else:
             validar = False
             print('ERROR, el documento debe ser numerico|\n' )
-            print(error)
     else:
         validar = False
         print('ERROR, El documento no es correcto|\n')
-        print(error)
     # Validacion del nombre
     if isinstance(nombre, str):
         if nombre.isalpha():
             if len(nombre) <= 3:
                 validar = False
                 print('ERROR, El nombre es muy corto|\n')
-                print(error)
             else:
                 pass
         else:
@@ -174,16 +172,16 @@ def validar_datos(documento:str, nombre:str, apellido:str, placa:str)->bool:
             if letras.isalpha():
                 if not numeros.isdigit():
                     validar = False
-                    print('ERROR, los ultimos 3 digitos deben ser numeros')
+                    print('ERROR, los ultimos 3 digitos deben ser numeros|\n')
             else:
                 validar = False
-                print('ERROR, los primeros 3 digitos deben ser letras')
+                print('ERROR, los primeros 3 digitos deben ser letras|\n')
         else:
             validar = False
-            print('ERROR, la placa debe de tener 6 caracteres')
+            print('ERROR, la placa debe de tener 6 caracteres|\n')
     else:
         validar = False
-        print('ERROR, La placa no es correcta')
+        print('ERROR, La placa no es correcta|\n')
     return validar
 
 while True:
@@ -206,7 +204,7 @@ while True:
                         time.sleep(0.5)
                     print('Datos Guardados...   ')
                 else:
-                    print('ERROR, de almacenamiento, vuelve a intentarlo')
+                    print('ERROR, de almacenamiento, vuelve a intentarlo|\n')
                     continue
             else:
                 print('Favor corregir los datos, vuelve y registra los datos.')
@@ -219,7 +217,7 @@ while True:
         
             if documento in dicUsuarios:
                 if placa in dicRegistro:
-                    print(f"⚠ El vehículo {placa} ya está registrado dentro del parqueadero.")
+                    print(f"⚠ El vehículo {placa} ya está registrado dentro del parqueadero.|\n")
                 else:
                     tiempoinicial = round(time.time(), 0)
                     hora = datetime.now().strftime("%I:%M:%S %p")
@@ -241,8 +239,8 @@ while True:
                     Facturas.ImprimirFacturaIngreso(nombre, documento, placa)
                     print(f" Vehículo de placas {placa} ingresado correctamente a las {hora} del día {fecha}.")
             else:
-                print(f"ERROR, El documento {documento} no se encuentra registrado.")
-                print("Registre primero al usuario y su vehículo usando la opción 1.")             
+                print(f"ERROR, El documento {documento} no se encuentra registrado.|\n")
+                print("Registre primero al usuario y su vehículo usando la opción 1.|\n")             
                     
         case '3':  # Retiro del vehículo
             placa = input('Ingrese la placa para retirar: ').upper()
@@ -274,10 +272,10 @@ while True:
         
                     print(f"Vehículo {placa} retirado correctamente. Gracias por su visita.")
                 else:
-                    print(f"ERROR, No se encontró el documento {documento} asociado al vehículo {placa}.")
+                    print(f"ERROR, No se encontró el documento {documento} asociado al vehículo {placa}.|\n")
         
             else:
-                print(f"ERROR, El vehículo {placa} no está registrado dentro del parqueadero.")
+                print(f"ERROR, El vehículo {placa} no está registrado dentro del parqueadero.|\n")
             
        
         case '4': # Acceso administrador
@@ -295,5 +293,5 @@ while True:
             print('Gracias, por utilizar parqueadero "La Guarderia, vuelva pronto"')
             break
         case _:
-            print('ERROR, Favor revisar, vuelve a intentarlo.')
+            print('ERROR, Favor revisar, vuelve a intentarlo.|\n')
             continue
