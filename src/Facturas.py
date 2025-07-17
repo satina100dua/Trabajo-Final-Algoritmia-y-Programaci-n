@@ -34,28 +34,45 @@ def ImprimirFactura(nombre: str, apellido: str, documento: str, placa: str, cobr
     ahora = datetime.now()
     fecha_emision = ahora.strftime('%Y-%m-%d')
     hora_emision = ahora.strftime('%I:%M:%S %p')
+    # Validación del cobro total
+    cobro_validado = horas * 7000 + cuartos * 1500
+    if cobro < 7000:
+        cobro_validado = 7000
 
+    if cobro != cobro_validado:
+        print(" ERROR: El valor total del cobro no coincide con el cálculo por horas y cuartos.")
+        print(f"→ Total recibido: ${cobro}")
+        print(f"→ Total esperado: ${cobro_validado}")
+        print(" Factura NO generada por inconsistencia.")
+        
     factura = (
-        f"\n{'*'*60}\n"
-        f"{'PARQUEADERO "LA GUARDERÍA"'.center(60)}\n"
-        f"{'FACTURA PARQUEADERO'.center(60)}\n"
-        f"{'*'*60}\n"
-        f"{'Fecha de emisión:':<25} {fecha_emision}\n"
-        f"{'Hora de emisión:':<25} {hora_emision}\n"
-        f"{'-'*60}\n"
-        f"{'Cliente:':<25} {nombre} {apellido}\n"
-        f"{'Documento:':<25} {documento}\n"
-        f"{'Placa del vehículo:':<25} {placa}\n"
-        f"{'-'*60}\n"
-        f"{'Horas completas:':<25} {horas}\n"
-        f"{'Cuartos de hora:':<25} {cuartos}\n"
-        f"{'Valor horas:':<25} ${horas * 7000}\n"
-        f"{'Valor cuartos:':<25} ${cuartos * 1500}\n"
-        f"{'-'*60}\n"
-        f"{'TOTAL A PAGAR:':<25} ${cobro}\n"
-        f"{'*'*60}\n"
-        f"{'¡Gracias por su visita!'.center(60)}\n"
-        f"{'*'*60}\n"
-    )
+            f"\n{'*'*60}\n"
+            f"{'PARQUEADERO \"LA GUARDERÍA\"'.center(60)}\n"
+            f"{'FACTURA PARQUEADERO'.center(60)}\n"
+            f"{'*'*60}\n"
+            f"{'Fecha de emisión:':<25} {fecha_emision}\n"
+            f"{'Hora de emisión:':<25} {hora_emision}\n"
+            f"{'-'*60}\n"
+            f"{'Cliente:':<25} {nombre} {apellido}\n"
+            f"{'Documento:':<25} {documento}\n"
+            f"{'Placa del vehículo:':<25} {placa}\n"
+            f"{'-'*60}\n"
+            f"{'Horas completas:':<25} {horas}\n"
+            f"{'Cuartos de hora:':<25} {cuartos}\n"
+            f"{'Valor horas:':<25} ${horas * 7000}\n"
+            f"{'Valor cuartos:':<25} ${cuartos * 1500}\n"
+        )
+
+    # Agregar advertencia si se está aplicando la tarifa mínima
+    if cobro == 7000:
+        factura += f"{'Se aplica tarifa mínima.':<60}\n"
+
+    factura += (
+            f"{'-'*60}\n"
+            f"{'TOTAL A PAGAR:':<25} ${cobro}\n"
+            f"{'*'*60}\n"
+            f"{'¡Gracias por su visita!'.center(60)}\n"
+            f"{'*'*60}\n"
+        )
     print(factura)
 
